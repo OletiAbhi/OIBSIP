@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Temperature Converter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="converter">
+
+        <header class="converter-header">
+            <p class="eyebrow">TEMPERATURE TOOL</p>
+            <h1>Temperature Converter</h1>
+            <p>
+                Convert temperatures between Celsius, Fahrenheit and Kelvin.
+            </p>
+        </header>
+
+
+        <section class="input-panel">
+
+            <div class="input-group">
+                <label for="temperature">Enter Temperature</label>
+
+                <input
+                    type="text"
+                    id="temperature"
+                    placeholder="Enter value"
+                    autocomplete="off"
+                >
+            </div>
+
+
+            <div class="input-group">
+                <label for="unit">Input Unit</label>
+
+                <select id="unit">
+                    <option value="celsius">Celsius (°C)</option>
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="kelvin">Kelvin (K)</option>
+                </select>
+            </div>
+
+
+            <button id="convertBtn" type="button">
+                Convert Temperature
+            </button>
+
+            <p id="errorMessage" class="error-message" aria-live="polite"></p>
+
+        </section>
+
+
+        <section class="results-section">
+
+            <div class="section-heading">
+                <p class="eyebrow">CONVERSION RESULTS</p>
+                <h2>Temperature in all units</h2>
+            </div>
+
+
+            <div class="results-grid">
+
+                <article class="result-card celsius-card">
+                    <div class="result-icon">❄</div>
+
+                    <div class="result-value">
+                        <span id="celsiusResult">--</span>
+                        <small>°C</small>
+                    </div>
+
+                    <p>Celsius</p>
+                </article>
+
+
+                <article class="result-card fahrenheit-card">
+                    <div class="result-icon">◉</div>
+
+                    <div class="result-value">
+                        <span id="fahrenheitResult">--</span>
+                        <small>°F</small>
+                    </div>
+
+                    <p>Fahrenheit</p>
+                </article>
+
+
+                <article class="result-card kelvin-card">
+                    <div class="result-icon">✦</div>
+
+                    <div class="result-value">
+                        <span id="kelvinResult">--</span>
+                        <small>K</small>
+                    </div>
+
+                    <p>Kelvin</p>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Built with HTML, CSS &amp; Vanilla JavaScript</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
