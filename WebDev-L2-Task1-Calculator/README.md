@@ -1,17 +1,17 @@
-# CALC v1.0 â€” Developer Console Calculator
+# CALC v1.0 — Developer Console Calculator
 
 A modern browser-based calculator developed as part of the Oasis Infobyte Web Development and Designing Internship.
 
 The project combines a developer-console inspired interface with a fully functional calculator built using HTML5, CSS3, and Vanilla JavaScript.
 
-## ðŸš€ Features
+## 🚀 Features
 
 - Basic arithmetic operations:
   - Addition
   - Subtraction
   - Multiplication
   - Division
-- Numbers from 0â€“9
+- Numbers from 0–9
 - Decimal number support
 - Clear calculator button
 - Backspace functionality
@@ -25,7 +25,7 @@ The project combines a developer-console inspired interface with a fully functio
 - Responsive design
 - Interactive button hover and click effects
 
-## ðŸŽ¨ Design
+## 🎨 Design
 
 The calculator uses a **Developer Console** visual style featuring:
 
@@ -38,39 +38,39 @@ The calculator uses a **Developer Console** visual style featuring:
 - CSS Grid based keypad
 - Responsive layout
 
-## ðŸ› ï¸ Technologies Used
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
 - Vanilla JavaScript
 
-## ðŸ“ Project Structure
+## 📁 Project Structure
 
 ```text
 WebDev-L2-Task1-Calculator/
-â”‚
-â”œâ”€â”€ index.html
-â”œâ”€â”€ style.css
-â”œâ”€â”€ script.js
-â””â”€â”€ README.md
-ðŸ§® Calculator Operations
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+🧮 Calculator Operations
 
 The calculator supports:
 
 Addition (+)
-Subtraction (âˆ’)
-Multiplication (Ã—)
-Division (Ã·)
+Subtraction (−)
+Multiplication (×)
+Division (÷)
 Decimal calculations
 Sequential operator chaining
 Example
-5 + 3 Ã— 2 = 16
+5 + 3 × 2 = 16
 
 The calculator processes chained operations sequentially.
 
-âŒ¨ï¸ Keyboard Controls
+⌨️ Keyboard Controls
 Key	Action
-0â€“9	Enter numbers
+0–9	Enter numbers
 .	Decimal
 +	Addition
 -	Subtraction
@@ -79,12 +79,12 @@ Key	Action
 Enter	Calculate
 Backspace	Delete
 Escape	Clear
-ðŸ›¡ï¸ Error Handling
+🛡️ Error Handling
 
 The calculator prevents division by zero.
 
 Example
-10 Ã· 0
+10 ÷ 0
 
 displays:
 
@@ -92,7 +92,7 @@ Error
 
 instead of an invalid numerical result.
 
-ðŸ“œ Calculation History
+📜 Calculation History
 
 Completed calculations are displayed in the history panel.
 
@@ -100,18 +100,18 @@ The latest calculation appears first.
 
 The CLEAR button removes the calculation history without resetting the current calculator input.
 
-ðŸ“± Responsive Design
+📱 Responsive Design
 
 The calculator adapts to smaller screen sizes using CSS media queries, keeping the interface usable across desktop and mobile devices.
 
-ðŸŽ“ Internship Details
+🎓 Internship Details
 
 Internship: Oasis Infobyte Internship
 Track: Web Development and Designing
 Level: Level 2
-Task: Task 1 â€” Calculator
+Task: Task 1 — Calculator
 
-ðŸ“š Learning Outcomes
+📚 Learning Outcomes
 
 Through this project, I practiced:
 
@@ -125,22 +125,22 @@ Input handling and error handling
 Dynamic calculation history
 Keyboard interaction
 Building calculator logic without using eval()
-â–¶ï¸ How to Run
+▶️ How to Run
 Clone or download the repository.
 Open the project folder:
 WebDev-L2-Task1-Calculator/
 Open index.html in a modern web browser.
 Use the calculator buttons or keyboard to perform calculations.
-ðŸŒ Live Demo
+🌐 Live Demo
 
 The project can be accessed through GitHub Pages after deployment.
 
-ðŸ“Œ Internship Task Requirements Covered
+📌 Internship Task Requirements Covered
 
 This project implements the major requirements of the Oasis Infobyte Level 2 Calculator task:
 
 Calculator display
-Number buttons 0â€“9
+Number buttons 0–9
 Decimal input
 Addition, subtraction, multiplication and division
 Equals operation
@@ -156,4 +156,4 @@ No inline onclick handlers
 No use of eval()
 
 Developed by Abijna Narasimha Dev Varma (Abhi Oleti)
-Oasis Infobyte â€” Web Development and Designing Internship
+Oasis Infobyte — Web Development and Designing Internship
