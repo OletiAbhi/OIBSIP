@@ -310,7 +310,7 @@ equalsButton.addEventListener("click", function() {
         currentInput = "Error";
 
         expressionDisplay.textContent =
-            firstNumber + " Ã· 0";
+            firstNumber + " ÷ 0";
 
         updateDisplay();
 
@@ -361,13 +361,13 @@ function getOperatorSymbol(operation) {
     switch (operation) {
 
         case "*":
-            return "Ã—";
+            return "×";
 
         case "/":
-            return "Ã·";
+            return "÷";
 
         case "-":
-            return "âˆ’";
+            return "−";
 
         case "+":
             return "+";
