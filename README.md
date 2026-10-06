@@ -4,7 +4,7 @@ A collection of web development projects completed during the Oasis Infobyte int
 
 ## Level 1
 
-- [Temperature Converter](./WbeDev-L1-Task3-TemperatureConverter/)
+- [Temperature Converter](./WebDev-L1-Task3-TemperatureConverter/)
 - [Landing Page](./WebDev-L1-Task1-LandingPage/)
 - [Portfolio](./WebDev-L1-Task2-Portfolio/)
 
