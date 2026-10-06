@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="A premium task management application for organizing pending and completed tasks."
+    >
+
+    <title>Task Manager | To-Do App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container nav-container">
+
+            <a href="#" class="logo">TASKFLOW</a>
+
+            <nav class="nav-links">
+                <a href="#pending">Pending</a>
+                <a href="#completed">Completed</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-content">
+
+                <p class="hero-label">YOUR PRODUCTIVITY SPACE</p>
+
+                <h1>
+                    Organize your day.<br>
+                    <span>Get things done.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Keep track of what matters, complete your tasks,
+                    and stay organized throughout your day.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- Add Task Section -->
+        <section class="task-input-section">
+
+            <div class="container">
+
+                <div class="task-input-card">
+
+                    <div class="input-wrapper">
+                        <span class="input-icon">✦</span>
+
+                        <input
+                            type="text"
+                            id="task-input"
+                            placeholder="What needs to be done?"
+                            autocomplete="off"
+                        >
+                    </div>
+
+                    <button id="add-task-btn" type="button">
+                        Add Task
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Task Lists -->
+        <section class="tasks-section">
+
+            <div class="container tasks-grid">
+
+
+                <!-- Pending Tasks -->
+                <section id="pending" class="task-panel">
+
+                    <div class="panel-header">
+
+                        <div>
+                            <p class="panel-label">IN PROGRESS</p>
+                            <h2>Pending Tasks</h2>
+                        </div>
+
+                        <span id="pending-count" class="task-count">
+                            0 pending
+                        </span>
+
+                    </div>
+
+
+                    <div id="pending-list" class="task-list">
+
+                        <div class="empty-state">
+                            <span class="empty-icon">○</span>
+
+                            <h3>No pending tasks</h3>
+
+                            <p>
+                                Add a task above and start getting things done.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- Completed Tasks -->
+                <section id="completed" class="task-panel">
+
+                    <div class="panel-header">
+
+                        <div>
+                            <p class="panel-label">DONE</p>
+                            <h2>Completed Tasks</h2>
+                        </div>
+
+                        <span id="completed-count" class="task-count">
+                            0 completed
+                        </span>
+
+                    </div>
+
+
+                    <div id="completed-list" class="task-list">
+
+                        <div class="empty-state">
+                            <span class="empty-icon">✓</span>
+
+                            <h3>No completed tasks</h3>
+
+                            <p>
+                                Completed tasks will appear here.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <p>
+                TASKFLOW · Web Development & Designing
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
