@@ -49,13 +49,19 @@ WebDev-L2-Task2-TributePage/
         ├── hampi-landscape.jpg
         ├── krishnadevaraya-portrait.jpg
         ├── krishnadevaraya-statue.jpg
-        └── virupaksha-temple.jpg
+```
 
-🖼️ Image Credits
+## Image Credits
 
-Historical images used in this project were sourced from Wikimedia Commons.
+The page uses local copies of the following Wikimedia Commons images:
 
-Please refer to the individual Wikimedia Commons pages for the original authors and applicable image licenses.
+- `krishnadevaraya-portrait.jpg` — “Portrait of Srikrishnadeva Raya,” by Rahmanuddin, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Portrait_of_Srikrishnadeva_Raya.JPG)
+- `hampi-landscape.jpg` — “Landscape Virupaksha Temple Hampi,” by Hemabalu5752, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [Source](https://commons.wikimedia.org/wiki/File:Landscape_Virupaksha_Temple_Hampi.jpg)
+- `amuktamalyada.jpg` — “Amuktamalyada by Krishnadevaraya” (1907), Telugu Collection for the British Library, public domain. [Source](https://commons.wikimedia.org/wiki/File:Amuktamalyada_by_Krishnadevaraya.jpg)
+- `krishnadevaraya-statue.jpg` — Bronze statues of Krishnadevaraya and his queens, from *The Tirupati Devasthanam Epigraphical Report* (1930), public domain in India. [Source](https://commons.wikimedia.org/wiki/File:Bronze_statues_of_King_Krishnadevaraya_and_his_queen_consorts,_Chinna_Devi_and_Tirumala_Devi.jpg)
+- `hampi-chariot.jpg` — “Virupaksha Temple and Chariot at Hampi,” by Naveen P.G, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Virupaksha_Temple_and_Chariot_at_Hampi.jpg)
+
+The CC BY-SA images are unmodified local copies.
 
 🚀 How to Run
 Download or clone the project.
