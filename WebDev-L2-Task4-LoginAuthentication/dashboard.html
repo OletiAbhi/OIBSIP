@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard | SecureSpace</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="dashboard-container">
+
+        <header class="dashboard-header">
+
+            <div class="brand">
+                <span class="brand-dot"></span>
+                <span>SECURESPACE</span>
+            </div>
+
+            <button id="logout-button" class="logout-button">
+                Logout
+            </button>
+
+        </header>
+
+
+        <section class="dashboard-content">
+
+            <div class="welcome-section">
+
+                <p class="dashboard-label">
+                    SECURE DASHBOARD
+                </p>
+
+                <h1>
+                    Welcome, <span id="dashboard-username">User</span>
+                </h1>
+
+                <p>
+                    Your account is active and your session is secure.
+                </p>
+
+            </div>
+
+
+            <div class="dashboard-grid">
+
+                <article class="dashboard-card">
+
+                    <div class="card-icon">
+                        👤
+                    </div>
+
+                    <div>
+                        <p class="card-label">USERNAME</p>
+                        <h2 id="user-username">—</h2>
+                    </div>
+
+                </article>
+
+
+                <article class="dashboard-card">
+
+                    <div class="card-icon">
+                        ✉
+                    </div>
+
+                    <div>
+                        <p class="card-label">EMAIL</p>
+                        <h2 id="user-email">—</h2>
+                    </div>
+
+                </article>
+
+
+                <article class="dashboard-card">
+
+                    <div class="card-icon">
+                        🛡
+                    </div>
+
+                    <div>
+                        <p class="card-label">SESSION STATUS</p>
+                        <h2 class="status-active">
+                            Active
+                        </h2>
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <section class="security-panel">
+
+                <div class="security-icon">
+                    ✓
+                </div>
+
+                <div>
+                    <h2>Authentication Verified</h2>
+
+                    <p>
+                        You have successfully authenticated.
+                        This dashboard is available only during
+                        your active login session.
+                    </p>
+                </div>
+
+            </section>
+
+        </section>
+
+
+        <footer class="dashboard-footer">
+            <p>SECURESPACE • Protected Area</p>
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
